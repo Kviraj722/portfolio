@@ -47,6 +47,13 @@ const App = () => {
           />
           <HeroComponent />
 
+          <div className="xl:ml-[50%] lg:ml-[53%] lg:py-24 py-16 h-full">
+            <AboutSection />
+            <ExperienceSection />
+            <ProjectsSection />
+            <ContactSection />
+            
+          </div>
         </section>
       </main>
     </div>
