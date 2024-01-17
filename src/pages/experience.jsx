@@ -62,6 +62,15 @@ const ExperienceSection = () => {
           );
         })}
       </div>
+      <div data-aos="fade-up"
+      data-aos-duration="1000"
+      ata-aos-easing="ease-in" className="mt-8">
+      <a href={"https://drive.google.com/file/d/1aFbvI9S4SUNNcs61gq4gHrlOKb4O4R5f/view?usp=sharing"} target="_blank" rel="noreferrer" className="no-underline w-fit group outline-none font-[500] text-base text-white duration-300 ease-in hover:text-blue-300 flex gap-2 items-center">
+        <div>
+          View Full Résumé
+        </div>
+      </a>
+      </div>
 
     </section>
   );
