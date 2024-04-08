@@ -1,5 +1,5 @@
 import React from "react";
-import { IoLogoGithub, IoLogoTwitter, IoLogoLinkedin, IoLogoDiscord } from 'react-icons/io5'
+import { IoLogoGithub, IoLogoTwitter, IoLogoLinkedin } from 'react-icons/io5'
 
 const HeroComponent = () => {
   const linksToSections = [
@@ -12,7 +12,6 @@ const HeroComponent = () => {
     { icon: <IoLogoGithub />, path: "https://github.com/Kviraj722" },
     { icon: <IoLogoTwitter />, path: "https://twitter.com/Kviraj722" },
     { icon: <IoLogoLinkedin />, path: "https://www.linkedin.com/in/kawa-viraj-551024205/" },
-    {icon : <IoLogoDiscord/>, path: "https://www.discordapp.com/users/800953231479406593"}
   ]
 
   return (
@@ -22,7 +21,7 @@ const HeroComponent = () => {
           data-aos-duration="1000"
           ata-aos-easing="ease-in">
           <h1 className="font-bold xl:text-5xl lg:text-[45px] md:text-5xl text-4xl">
-            Viraj Kawa 
+            Viraj Kawa
           </h1>
           <h3 className="md:text-2xl text-[25px] font-semibold lg:mt-2">A Software Developer Engineer</h3>
           <p className="mt-3 xl:max-w-[60%] xl:w-full lg:w-[80%] md:w-[50%] w-full text-gray-400 font-light text-base">

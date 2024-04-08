@@ -1,6 +1,6 @@
 import FileSharing from "../assets/images/Screenshot from 2024-01-08 21-30-30.png";
 import DevDetective from "../assets/images/Screenshot from 2024-01-08 21-35-12.png";
-import PromptAi from "../assets/images/image.png";
+import FoodRec from "../assets/images/image.png";
 
 export const projects = [
   {
@@ -12,11 +12,11 @@ export const projects = [
   },
 
   {
-    thumbnail: PromptAi,
-    title: "Prompt AI",
-    content: `Prompt AI is a robust and fully functional prompt sharing application. Share your prompts with world.`,
+    thumbnail: FoodRec,
+    title: "Grab a bite",
+    content: `Grab a bite is a food recomdation app which allow users to find their favourite spots nearby. `,
     liveUrl: "https://prompt-ai-virajkawa.vercel.app/",
-    tools: ["NextJs", "Tailwind", "MongoDB"],
+    tools: ["NextJs", "TailwindCSS", "MongoDB", "Graph APIs Instagram"],
   },
 
   {
