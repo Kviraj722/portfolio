@@ -1,6 +1,6 @@
 import FileSharing from "../assets/images/Screenshot from 2024-01-08 21-30-30.png";
 import DevDetective from "../assets/images/Screenshot from 2024-01-08 21-35-12.png";
-import FoodRec from "../assets/images/image.png";
+import FoodRec from "../assets/images/GrabABite.png";
 
 export const projects = [
   {
@@ -14,8 +14,8 @@ export const projects = [
   {
     thumbnail: FoodRec,
     title: "Grab a bite",
-    content: `Grab a bite is a food recomdation app which allow users to find their favourite spots nearby. `,
-    liveUrl: "https://prompt-ai-virajkawa.vercel.app/",
+    content: `Grab a bite is a food recommendation app which allow users to find their favourite spots nearby.`,
+    liveUrl: "https://food-rec-viraj.vercel.app/",
     tools: ["NextJs", "TailwindCSS", "MongoDB", "Graph APIs Instagram"],
   },
 
